@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let i,j,flag;
+        const arr=[1,2,1,3,1];
+        n=arr.length;
+        for(i=0;i<n;i++){
+            flag=0;
+            for(j=0;j<n;j++){
+                if(i!=j && arr[i]==arr[j]){
+                    flag++;
+                    break;
+                }
+            }
+            if(flag==0){
+                
+                    document.write(arr[i]);
+                }
+            }
+        
+    </script>
+</body>
+</html>

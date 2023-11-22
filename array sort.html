@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let i,j,temp;
+    const arr=[1,8,4,3,5];
+    let n=arr.length;
+    for(i=0;i<n;i++){
+       for(j=i+1;j<n;j++){
+        if(arr[i]<arr[j]){
+            temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+        }
+       }
+       document.write(arr[i]);
+    }
+    </script>
+</body>
+</html>

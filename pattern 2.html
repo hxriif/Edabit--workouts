@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let i,j,n=8;
+        for(i=0;i<5;i++)
+        {
+            for(j=0;j<9;j++)
+            {
+                if(i==0||i==j||j==n-i)
+                {
+                    document.write("*");
+                }
+                else
+                {
+                    document.write("&nbsp;&nbsp;")
+                }
+            }
+            document.write("<br>");
+        }
+    </script>
+</body>
+</html>
